@@ -1,0 +1,138 @@
+    .container{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1000px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color:#fee3ec
+
+    }
+    .navigator{
+        width: 100%;
+        height: 9%;
+        background-color: white;
+    }
+
+
+    a {
+        text-decoration-line: none;
+    }
+
+
+    .nav1 {
+    width: 30%;
+    height: 100%;
+    font-size: 18px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 18px;
+    font-family:Balsamiq Sans;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    display: inline-block;
+    background-color: #F2789F;
+    color:whitesmoke;
+    cursor: pointer;
+    float: left;
+    }
+
+    .nav2 {
+    width: 30%;
+    height: 100%;
+    font-size: 18px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 18px;
+    font-family:Balsamiq Sans;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    display: inline-block;
+    background-color: #F2789F;
+    color:whitesmoke;
+    cursor: pointer;
+    }
+
+    a:hover {
+    background-color: #fa3070;
+    color: black;
+    }
+
+    .formation{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 20%;
+        font-family: Roboto Slab;
+        
+    }
+    table{
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .question{
+        margin-top:2%;
+        width: 100%;
+        height: 20%;
+        margin-left: 3px;
+        font-family: Roboto Slab;
+        
+    }
+    .underform{
+        width: 100%;
+        height: 5%;
+        margin-top:1%;
+    }
+    .calbutton{
+        height: 100%;
+        font-family: Balsamiq Sans;
+        display: block;
+        margin: auto;
+        height: 40px;
+        width: 15%;
+        border-radius: 10px;
+        border: transparent;
+        background-color: #fa3070;
+        font-size: 18px;
+        cursor: pointer;
+        color:white;
+        
+    }
+    #result{
+        width: 100%;
+        height: 10%;
+        text-align: center;
+        font-size: 32px;
+        line-height: 2px;
+        font-family:Balsamiq Sans ;
+    
+    }
+    #bmrResult{
+        width: 100%;
+        height: 15%;
+        font-size: 18px;
+        text-align: center;
+        font-family:Balsamiq Sans;
+        
+    }
+
+    #teeResult{
+        width: 100%;
+        height: 15%;
+        font-size: 18px;
+        text-align: center;
+        font-family:Balsamiq Sans;
+    }
+    #bmr{
+        font-size: 18px;
+        color: rgb(230, 106, 127);
+    }
+    #tee{
+        font-size: 18px;
+        color: rgb(230, 106, 127);
+    }

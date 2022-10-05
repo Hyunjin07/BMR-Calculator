@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link href="assignment1.style.css" rel="stylesheet" type="text/css">
+    <title>Assignment1 Metric</title>
+   
+</head>
+<body>
+<div class="container">
+        <div class="navigator">
+       
+        <a class="nav1" href="Assignment1.html">IMPERIAL BRM CALCULATOR</a>
+        
+        <a class="nav2" href="Assignment1Metric.html">METRIC BMR CALCULATOR</a>
+        
+        </div>
+    
+    <div class="form">
+        <div class="formation" id="format">
+        <table>
+        <tr>
+            <td><label for ="Gender" name="gender">Gender</label></td>
+            <td colspan="2">
+            <select id="gender">
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+            </select> 
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Age"></label>Age:</td>
+                <td colspan="2">
+                <input type="number" class="information" id="age" name="age" min="0" value="0">
+                </td>
+        </tr>
+        <tr>
+            <td><label for="Height">Height:</label></td>
+            <td>
+                <input type="number" class="information" id="height" name="Height" min="0"  value ="0">&nbsp;cm
+            </td>
+           
+        </tr>
+        <tr>
+            <td><label for="Stones">Weight:</label></td>
+            <td>
+                <input type="number" class="information" id="weight" name="stones" min="0" value ="0">&nbsp;kg
+            </td>
+            
+        </tr>
+        </table>
+        </div>
+
+        <div class="question" id="ques">
+            <span>Select your activity level:</span><br>
+            <div class="activity radio">
+                <input type="radio" id="sedentarylevel" class="activitychoose" name="activity" value="little" >
+                <label class="radiolabel" for="sedentaryRadio">I am sedentary (little or no exercise)</label><br>
+            </div>
+            <div  class="activity radio">
+                <input type="radio" id="lightlylevel" class="activitychoose" name="activity" value="light">
+                <label class="radiolabel" for="lightlyRadio">I am lightly active (light exercise or sports 1-3 days per week)</label><br>
+            </div>
+            <div  class="activity radio">
+                <input type="radio" id="moderatelylevel" class="activitychoose" name="activity" value="moderate">
+                <label class="radiolabel" for="moderateRadio">I am moderately active (moderate exercise or sports 3-5 days per week)</label><br>
+            </div>
+            <div  class="activity radio">
+                <input type="radio" id="verylevel" class="activitychoose" name="activity" value="hard">
+                <label class="radiolabel" for="hardRadio">I am very active (hard exercise or sports 6-7 days per week)</label><br>
+            </div>
+            <div  class="activity radio">
+                <input type="radio" id="superlevel" class="activitychoose" name="activityLv" value="super">
+                <label class="radiolabel" for="superRadio">I am super active (very hard exercise or sports and a physical job)</label><br>
+            </div>
+        </div>
+            <div class="underform" id="hideunderform">
+                <input type="button" class="calbutton" id="submit" value="CalculateBMR" onclick="BMR2()">
+                
+            </div>
+            
+    </div>
+            <div id="result">
+                <p>BMR RESULT</p>
+                </div>    
+                <div id="bmrResult">
+                    <p>Your BMR</p>
+                    <p id="bmr"></p>
+                </div>
+                <div id="teeResult">
+                    <p>Maintenance calories per day</p>
+                    <p id="tee"></p>
+                </div>
+            <script src="assignment1.js"></script>
+</div>
